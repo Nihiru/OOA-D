@@ -1,0 +1,20 @@
+{
+  "name": "OOA-D",
+  "version": "1.0.0",
+  "description": "A series of object oriented analysis and design tutorials taken from \"Head first Object Oriented Analysis & Design\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nihiru/OOA-D.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nihiru/OOA-D/issues"
+  },
+  "homepage": "https://github.com/Nihiru/OOA-D#readme"
+}
