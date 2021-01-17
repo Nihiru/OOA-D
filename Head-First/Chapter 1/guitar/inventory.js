@@ -15,7 +15,24 @@ export default class Inventory {
             if (guitar.serialNumber === serialNumber)
                 return guitar
         }
+        return null;
+    }
 
+    search(searchGuitar) {
+        let collectionOfGuitars = this.guitars
+        for (let guitar of collectionOfGuitars) {
+            builderInfo = searchGuitar.builder()
+            if ((builderInfo !== null) && !(builderInfo === "") && !(builderInfo === guitar.builder()))
+                continue
+            if ((builderInfo !== null) && !(builderInfo === "") && !(builderInfo === guitar.model()))
+                continue
+            if ((builderInfo !== null) && !(builderInfo === "") && !(builderInfo === guitar.type()))
+                continue
+            if ((builderInfo !== null) && !(builderInfo === "") && !(builderInfo === guitar.backWood()))
+                continue
+            if ((builderInfo !== null) && !(builderInfo === "") && !(builderInfo === guitar.typeWood()))
+                continue
+        }
         return null;
     }
 }

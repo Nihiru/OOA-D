@@ -6,7 +6,7 @@ export default class Guitar {
         this.model = model
         this.type = type
         this.backWood = backWood
-        this.typeWood = typeWood
+        this.topWood = topWood
     }
 
     serialNumber() {
@@ -33,7 +33,7 @@ export default class Guitar {
         return this.backWood
     }
 
-    typeWood() {
-        return this.typeWood
+    topWood() {
+        return this.topWood
     }
 }
